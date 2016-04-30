@@ -2,6 +2,7 @@ var moment = require('moment');
 
 var status = function(){
 
+	//Default JSON
 	this.statusJson = {
 	    miguel : {
 	        status : 2,
@@ -10,9 +11,9 @@ var status = function(){
 	        timeago:null
 	    },
 	    lobo : {
-	        status : 1,
-	        datetime : new Date(),
-	        time: "00:00",
+	        status : 2,
+	        datetime : null,
+	        time: null,
 	        timeago: null
 	    }
 	}
